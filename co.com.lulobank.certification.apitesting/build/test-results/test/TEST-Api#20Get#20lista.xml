@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Api Get lista" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-07T23:45:29" hostname="CAMILO-PC" time="1.914">
+  <properties/>
+  <testcase name="Realizar la peticion para obener la informacion del empleado" classname="Api Get lista" time="1.914">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step &quot;que el usuaro cargo los datos para el proceso&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Dado(&quot;que el usuaro cargo los datos para el proceso&quot;)&#10;public void queElUsuaroCargoLosDatosParaElProceso(io.cucumber.datatable.DataTable dataTable) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    // For automatic transformation, change DataTable to one of&#10;    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or&#10;    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,&#10;    // Double, Byte, Short, Long, BigInteger or BigDecimal.&#10;    //&#10;    // For other transformations you can register a DataTableType.&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Cuando(&quot;se realiza la peticion a la api&quot;)&#10;public void seRealizaLaPeticionALaApi() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Entonces(&quot;se vizualizar exitosamente el response&quot;)&#10;public void seVizualizarExitosamenteElResponse() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;que el usuaro cargo los datos para el proceso&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Dado(&quot;que el usuaro cargo los datos para el proceso&quot;)
+public void queElUsuaroCargoLosDatosParaElProceso(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Cuando(&quot;se realiza la peticion a la api&quot;)
+public void seRealizaLaPeticionALaApi() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Entonces(&quot;se vizualizar exitosamente el response&quot;)
+public void seVizualizarExitosamenteElResponse() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/camilo/Desktop/lulo/co.com.lulobank.certification.apitesting/src/test/resources/features/get_lista.feature
+[Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Realizar la peticion para obener la informacion del empleado(api-get-lista;realizar-la-peticion-para-obener-la-informacion-del-empleado)
+-------------------------------------------------------------------
+[Test worker] INFO  - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+
+Realizar la peticion para obener la informacion del empleado
+-------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
